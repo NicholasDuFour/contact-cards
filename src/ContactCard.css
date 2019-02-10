@@ -1,0 +1,123 @@
+/* Mobile Styles */
+.ContactCard {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    width: 60%;
+    margin: 5px 12px;
+    padding: 12px 2px;
+    background-color: whitesmoke;
+  }
+  
+  .ContactCard_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .name-label {
+    position: relative;
+    left: 0px;
+  }
+  
+  .ContactCard_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .email-label {
+    position: relative;
+    left: 2px;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+  }
+
+  .ContactForm {
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+  }
+
+  .ContactForm input {
+      margin-left: 5px;
+      outline-style: none;
+      height: 25px;
+      font-size: 15px;
+      border: 1px solid grey;
+  }
+
+  .contact-btn {
+    color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    outline-style: none;
+  }
+
+  .addContact {
+      background-color: rgb(46, 176, 46);
+  }
+
+  .deleteContact {
+    background-color: rgb(179, 37, 37);
+    margin-bottom: 8px;
+}
+
+.cc-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-top: 1px solid grey;
+    margin-top: 25px;
+    padding-bottom: 62px;
+    padding-top: 15px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Tablet and Desktop Styles */
+@media only screen and (min-width:768px) {
+.ContactCard {
+    height: 40%;
+    width: 20%;
+  }
+
+  .ContactForm {
+    width: 30%;
+  }
+
+  .ContactForm input {
+    margin-left: 5px;
+    outline-style: none;
+    height: 25px;
+    font-size: 15px;
+  }
+
+  .contact-btn {
+    color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    outline-style: none;
+  }
+
+}
