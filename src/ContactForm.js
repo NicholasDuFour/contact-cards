@@ -23,11 +23,11 @@ class ContactForm extends Component {
                 <h2>Add A Contact</h2>
                 <p className="name-label">
                     <label>Name</label>
-                    <input value = {this.state.name} onChange={this.handleChangeName}/>
+                    <input value = {this.state.name} onChange={this.handleChangeName} aria-label="name"/>
                 </p>
                 <p className="email-label">
                     <label>Email</label>
-                    <input type="email" value = {this.state.email} onChange={this.handleChangeEmail}/>
+                    <input type="email" value = {this.state.email} onChange={this.handleChangeEmail} aria-label="email"/>
                 </p>
                 <p className="ContactForm__button-bar button-bar">
                     <button className= "addContact contact-btn" type="submit">Add</button>
